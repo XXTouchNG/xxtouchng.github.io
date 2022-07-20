@@ -1,0 +1,7550 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>模拟使用上划退出应用程序 (app.quit) · XXTouch 知识库</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="i_82">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="app.is_running.html" />
+    
+    
+    <link rel="prev" href="app.close.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://www.xxtouch.com" target="_blank" class="custom-link">XXTouch 官方网站</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../index.html">
+            
+                <a href="../../index.html">
+            
+                    
+                    首页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../ABC.html">
+            
+                <a href="../../ABC.html">
+            
+                    
+                    使用入门
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../UpdateLogs.html">
+            
+                <a href="../../UpdateLogs.html">
+            
+                    
+                    更新日志
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../FAQ/index.html">
+            
+                <a href="../../FAQ/index.html">
+            
+                    
+                    常见问题答疑 (FAQ)
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../FAQ/faq-0001.html">
+            
+                <a href="../../FAQ/faq-0001.html">
+            
+                    
+                    XXTouch 是什么？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../FAQ/faq-0002.html">
+            
+                <a href="../../FAQ/faq-0002.html">
+            
+                    
+                    哪些设备可运行 XXTouch？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../FAQ/faq-0003.html">
+            
+                <a href="../../FAQ/faq-0003.html">
+            
+                    
+                    如何安装 XXTouch 到设备上？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../../FAQ/faq-0004.html">
+            
+                <a href="../../FAQ/faq-0004.html">
+            
+                    
+                    XXTouch 收费么？哪些部分收费？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../../FAQ/faq-0005.html">
+            
+                <a href="../../FAQ/faq-0005.html">
+            
+                    
+                    我购买了 XXTouch 授权码后会获得哪些权利？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../../FAQ/faq-0006.html">
+            
+                <a href="../../FAQ/faq-0006.html">
+            
+                    
+                    没有授权的 XXTouch 有什么限制？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../../FAQ/faq-0007.html">
+            
+                <a href="../../FAQ/faq-0007.html">
+            
+                    
+                    我电脑上有个脚本，如何使用 USB 连接导入到设备上？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../../FAQ/faq-0008.html">
+            
+                <a href="../../FAQ/faq-0008.html">
+            
+                    
+                    电脑端如何通过 USB 访问到完全文件系统？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../../FAQ/faq-0009.html">
+            
+                <a href="../../FAQ/faq-0009.html">
+            
+                    
+                    XXTouch 的脚本及相关资源存在设备的哪个位置？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="../../FAQ/faq-0010.html">
+            
+                <a href="../../FAQ/faq-0010.html">
+            
+                    
+                    如何在电脑上给 XXTouch 开发脚本？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="../../FAQ/faq-0011.html">
+            
+                <a href="../../FAQ/faq-0011.html">
+            
+                    
+                    作为开发者，我编写了一个脚本想收费怎么办？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12" data-path="../../FAQ/faq-0012.html">
+            
+                <a href="../../FAQ/faq-0012.html">
+            
+                    
+                    从 Cydia 添加 XXTouch 源出现“此服务器的证书无效。”怎么办？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13" data-path="../../FAQ/faq-0013.html">
+            
+                <a href="../../FAQ/faq-0013.html">
+            
+                    
+                    从 Cydia 安装或更新 XXTouch 失败（出现红字/黄字）怎么办？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.14" data-path="../../FAQ/faq-0014.html">
+            
+                <a href="../../FAQ/faq-0014.html">
+            
+                    
+                    在 Cydia 添加 XXTouch 官方源失败怎么办？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15" data-path="../../FAQ/faq-0015.html">
+            
+                <a href="../../FAQ/faq-0015.html">
+            
+                    
+                    在 Cydia 的 XXTouch 官方源中找不到任何软件包怎么办？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.16" data-path="../../FAQ/faq-0016.html">
+            
+                <a href="../../FAQ/faq-0016.html">
+            
+                    
+                    安装 XXTouch 后闪退或桌面没有图标怎么办？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.17" data-path="../../FAQ/faq-0017.html">
+            
+                <a href="../../FAQ/faq-0017.html">
+            
+                    
+                    安装 XXTouch 后无限提示同步失败怎么解决？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.18" data-path="../../FAQ/faq-0018.html">
+            
+                <a href="../../FAQ/faq-0018.html">
+            
+                    
+                    安装 XXTouch 后无限提示需要注销、与服务器或守护进程通讯失败？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.19" data-path="../../FAQ/faq-0019.html">
+            
+                <a href="../../FAQ/faq-0019.html">
+            
+                    
+                    使用一段时间突然出现“XXTouch 版本需要更新才能继续获得稳定的生产力”无限弹出并且无法操作？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.20" data-path="../../FAQ/faq-0036.html">
+            
+                <a href="../../FAQ/faq-0036.html">
+            
+                    
+                    打开 X.X.T. 后弹窗提示 ‘“X.X.T.” 可能使 iPhone 变慢’ 怎么办？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.21" data-path="../../FAQ/faq-0020.html">
+            
+                <a href="../../FAQ/faq-0020.html">
+            
+                    
+                    授权没有到期却弹出授权无效的提示？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.22" data-path="../../FAQ/faq-0021.html">
+            
+                <a href="../../FAQ/faq-0021.html">
+            
+                    
+                    进入授权界面提示“无法连接到授权服务器。”或“阿里云网关错误：Timestamp Expired”怎么办？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.23" data-path="../../FAQ/faq-0022.html">
+            
+                <a href="../../FAQ/faq-0022.html">
+            
+                    
+                    iOS 系统时间在哪里调整？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.24" data-path="../../FAQ/faq-0023.html">
+            
+                <a href="../../FAQ/faq-0023.html">
+            
+                    
+                    取色器/编辑器/局域网控制器 扫描不到设备怎么办？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.25" data-path="../../FAQ/faq-0024.html">
+            
+                <a href="../../FAQ/faq-0024.html">
+            
+                    
+                    为何我扫一扫下载会出现 “帧框加载已失败”？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.26" data-path="../../FAQ/faq-0025.html">
+            
+                <a href="../../FAQ/faq-0025.html">
+            
+                    
+                    如何录制脚本？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.27" data-path="../../FAQ/faq-0026.html">
+            
+                <a href="../../FAQ/faq-0026.html">
+            
+                    
+                    如何运行脚本？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.28" data-path="../../FAQ/faq-0027.html">
+            
+                <a href="../../FAQ/faq-0027.html">
+            
+                    
+                    如何选择脚本？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.29" data-path="../../FAQ/faq-0028.html">
+            
+                <a href="../../FAQ/faq-0028.html">
+            
+                    
+                    如何在设备上编辑脚本？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.30" data-path="../../FAQ/faq-0029.html">
+            
+                <a href="../../FAQ/faq-0029.html">
+            
+                    
+                    如何加密脚本？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.31" data-path="../../FAQ/faq-0030.html">
+            
+                <a href="../../FAQ/faq-0030.html">
+            
+                    
+                    脚本可以做什么？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.32" data-path="../../FAQ/faq-0031.html">
+            
+                <a href="../../FAQ/faq-0031.html">
+            
+                    
+                    加密的脚本可以被解密么？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.33" data-path="../../FAQ/faq-0032.html">
+            
+                <a href="../../FAQ/faq-0032.html">
+            
+                    
+                    XXTouch 可以在电脑上运行么？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.34" data-path="../../FAQ/faq-0033.html">
+            
+                <a href="../../FAQ/faq-0033.html">
+            
+                    
+                    XXTouch 可以在安卓系统上运行么？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.35" data-path="../../FAQ/faq-0034.html">
+            
+                <a href="../../FAQ/faq-0034.html">
+            
+                    
+                    XXTouch 可以在没有越狱的 iOS 设备上运行么？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.36" data-path="../../FAQ/faq-0035.html">
+            
+                <a href="../../FAQ/faq-0035.html">
+            
+                    
+                    已知的与 XXTouch 一定会产生冲突的插件参考
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../index.html">
+            
+                <a href="../index.html">
+            
+                    
+                    XXTouch iOS 开发手册
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../about-xxtouch/index.html">
+            
+                <a href="../about-xxtouch/index.html">
+            
+                    
+                    关于 XXTouch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../how-to-read/index.html">
+            
+                <a href="../how-to-read/index.html">
+            
+                    
+                    如何阅读本手册
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../how-to-use/index.html">
+            
+                <a href="../how-to-use/index.html">
+            
+                    
+                    如何使用 XXTouch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../secure-require/index.html">
+            
+                <a href="../secure-require/index.html">
+            
+                    
+                    保护脚本，正确接受 require
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../control-flow/index.html">
+            
+                <a href="../control-flow/index.html">
+            
+                    
+                    基本控制函数
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.5.1" data-path="../control-flow/os.exit.html">
+            
+                <a href="../control-flow/os.exit.html">
+            
+                    
+                    结束脚本 (os.exit)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5.2" data-path="../control-flow/os.restart.html">
+            
+                <a href="../control-flow/os.restart.html">
+            
+                    
+                    重启脚本 (os.restart)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5.3" data-path="../control-flow/terminate-callback.html">
+            
+                <a href="../control-flow/terminate-callback.html">
+            
+                    
+                    脚本被终止时执行一些代码的方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../develop-helper/index.html">
+            
+                <a href="../develop-helper/index.html">
+            
+                    
+                    开发辅助函数
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.6.1" data-path="../develop-helper/print.html">
+            
+                <a href="../develop-helper/print.html">
+            
+                    
+                    打印内容到缓冲区 (print)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.2" data-path="../develop-helper/print.out.html">
+            
+                <a href="../develop-helper/print.out.html">
+            
+                    
+                    将打印缓冲区的内容提出来 (print.out)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.3" data-path="../develop-helper/nLog.html">
+            
+                <a href="../develop-helper/nLog.html">
+            
+                    
+                    网络日志 (nLog)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../screen/index.html">
+            
+                <a href="../screen/index.html">
+            
+                    
+                    屏幕模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.7.1" data-path="../screen/screen.init.html">
+            
+                <a href="../screen/screen.init.html">
+            
+                    
+                    初始化旋转坐标系 (screen.init)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7.2" data-path="../screen/screen.rotate_xy.html">
+            
+                <a href="../screen/screen.rotate_xy.html">
+            
+                    
+                    坐标旋转转换 (screen.rotate_xy)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7.3" data-path="../screen/screen.size.html">
+            
+                <a href="../screen/screen.size.html">
+            
+                    
+                    获取屏幕尺寸 (screen.size)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7.4" data-path="../screen/screen.keep.html">
+            
+                <a href="../screen/screen.keep.html">
+            
+                    
+                    保持屏幕 (screen.keep)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7.5" data-path="../screen/screen.unkeep.html">
+            
+                <a href="../screen/screen.unkeep.html">
+            
+                    
+                    取消保持屏幕 (screen.unkeep)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7.6" data-path="../screen/screen.get_color.html">
+            
+                <a href="../screen/screen.get_color.html">
+            
+                    
+                    获取屏幕上某点颜色 (screen.get_color)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7.7" data-path="../screen/screen.get_color_rgb.html">
+            
+                <a href="../screen/screen.get_color_rgb.html">
+            
+                    
+                    获取屏幕上某点颜色 RGB (screen.get_color_rgb)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7.8" data-path="../screen/screen.is_colors.html">
+            
+                <a href="../screen/screen.is_colors.html">
+            
+                    
+                    屏幕多点颜色匹配 (screen.is_colors)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7.9" data-path="../screen/screen.find_color-cs.html">
+            
+                <a href="../screen/screen.find_color-cs.html">
+            
+                    
+                    多点相似度模式找色 (screen.find_color)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7.10" data-path="../screen/screen.find_color-co.html">
+            
+                <a href="../screen/screen.find_color-co.html">
+            
+                    
+                    多点色偏模式找色 (screen.find_color)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7.11" data-path="../screen/screen.image.html">
+            
+                <a href="../screen/screen.image.html">
+            
+                    
+                    获取屏幕图像 (screen.image)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7.12" data-path="../screen/screen.ocr_text.html">
+            
+                <a href="../screen/screen.ocr_text.html">
+            
+                    
+                    屏幕区域文字识别 (screen.ocr_text)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7.13" data-path="../screen/screen.find_image.html">
+            
+                <a href="../screen/screen.find_image.html">
+            
+                    
+                    屏幕找图 (screen.find_image)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="../touch/index.html">
+            
+                <a href="../touch/index.html">
+            
+                    
+                    模拟触摸模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.8.1" data-path="../touch/touch.tap.html">
+            
+                <a href="../touch/touch.tap.html">
+            
+                    
+                    ! 模拟手指轻触一次屏幕 (touch.tap)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8.2" data-path="../touch/touch.on.html">
+            
+                <a href="../touch/touch.on.html">
+            
+                    
+                    模拟手指接触屏幕 (touch.on)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8.3" data-path="../touch/_move.html">
+            
+                <a href="../touch/_move.html">
+            
+                    
+                    ! 模拟手指在屏幕上移动 (:move)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8.4" data-path="../touch/_press.html">
+            
+                <a href="../touch/_press.html">
+            
+                    
+                    ! 模拟手指在屏幕上施加压力 (:press)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8.5" data-path="../touch/_off.html">
+            
+                <a href="../touch/_off.html">
+            
+                    
+                    模拟手指离开屏幕 (:off)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8.6" data-path="../touch/_step_len.html">
+            
+                <a href="../touch/_step_len.html">
+            
+                    
+                    设置触摸事件对象移动步长 (:step_len)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8.7" data-path="../touch/_step_delay.html">
+            
+                <a href="../touch/_step_delay.html">
+            
+                    
+                    设置触摸事件对象移动每步延迟 (:step_delay)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8.8" data-path="../touch/_msleep.html">
+            
+                <a href="../touch/_msleep.html">
+            
+                    
+                    ! 毫秒级延迟 (:msleep)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8.9" data-path="../touch/touch.show_pose.html">
+            
+                <a href="../touch/touch.show_pose.html">
+            
+                    
+                    设置触摸圆点显示 (touch.show_pose)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8.10" data-path="../touch/samples-1.html">
+            
+                <a href="../touch/samples-1.html">
+            
+                    
+                    touch 示例代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9" data-path="../key/index.html">
+            
+                <a href="../key/index.html">
+            
+                    
+                    模拟按键模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.9.1" data-path="../key/key.press.html">
+            
+                <a href="../key/key.press.html">
+            
+                    
+                    模拟按一下物理按键 (key.press)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.2" data-path="../key/key.down.html">
+            
+                <a href="../key/key.down.html">
+            
+                    
+                    模拟按下物理按键 (key.down)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.3" data-path="../key/key.up.html">
+            
+                <a href="../key/key.up.html">
+            
+                    
+                    松开按下的物理按键 (key.up)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.4" data-path="../key/key.send_text.html">
+            
+                <a href="../key/key.send_text.html">
+            
+                    
+                    模拟键入文本 (key.send_text)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.5" data-path="../key/samples.html">
+            
+                <a href="../key/samples.html">
+            
+                    
+                    示例及支持的键码列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10" data-path="../accelerometer/index.html">
+            
+                <a href="../accelerometer/index.html">
+            
+                    
+                    模拟重力加速计模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.10.1" data-path="../accelerometer/accelerometer.simulate.html">
+            
+                <a href="../accelerometer/accelerometer.simulate.html">
+            
+                    
+                    模拟加速计数据 (accelerometer.simulate)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10.2" data-path="../accelerometer/accelerometer.shake.html">
+            
+                <a href="../accelerometer/accelerometer.shake.html">
+            
+                    
+                    模拟摇一摇 (accelerometer.shake)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10.3" data-path="../accelerometer/accelerometer.rotate_home_on_left.html">
+            
+                <a href="../accelerometer/accelerometer.rotate_home_on_left.html">
+            
+                    
+                    改变当前重力方向为 home 在左 (accelerometer.rotate_home_on_left)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10.4" data-path="../accelerometer/accelerometer.rotate_home_on_right.html">
+            
+                <a href="../accelerometer/accelerometer.rotate_home_on_right.html">
+            
+                    
+                    改变当前重力方向为 home 在右 (accelerometer.rotate_home_on_right)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10.5" data-path="../accelerometer/accelerometer.rotate_home_on_top.html">
+            
+                <a href="../accelerometer/accelerometer.rotate_home_on_top.html">
+            
+                    
+                    改变当前重力方向为 home 在上 (accelerometer.rotate_home_on_top)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10.6" data-path="../accelerometer/accelerometer.rotate_home_on_bottom.html">
+            
+                <a href="../accelerometer/accelerometer.rotate_home_on_bottom.html">
+            
+                    
+                    改变当前重力方向为 home 在下 (accelerometer.rotate_home_on_bottom)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11" data-path="../sys/index.html">
+            
+                <a href="../sys/index.html">
+            
+                    
+                    系统模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.11.1" data-path="../sys/sys.toast.html">
+            
+                <a href="../sys/sys.toast.html">
+            
+                    
+                    显示提示文字 (sys.toast)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11.2" data-path="../sys/sys.alert.html">
+            
+                <a href="../sys/sys.alert.html">
+            
+                    
+                    弹出系统提示 (sys.alert)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11.3" data-path="../sys/sys.input_box.html">
+            
+                <a href="../sys/sys.input_box.html">
+            
+                    
+                    弹出输入提示 (sys.input_box)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11.4" data-path="../sys/sys.input_text.html">
+            
+                <a href="../sys/sys.input_text.html">
+            
+                    
+                    输入文字 (sys.input_text)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11.5" data-path="../sys/sys.msleep.html">
+            
+                <a href="../sys/sys.msleep.html">
+            
+                    
+                    ! 毫秒级延迟 (sys.msleep)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11.6" data-path="../sys/sys.mtime.html">
+            
+                <a href="../sys/sys.mtime.html">
+            
+                    
+                    获取当前毫秒级时间戳 (sys.mtime)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11.7" data-path="../sys/sys.net_time.html">
+            
+                <a href="../sys/sys.net_time.html">
+            
+                    
+                    ! 获取网络时间 (sys.net_time)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11.8" data-path="../sys/sys.rnd.html">
+            
+                <a href="../sys/sys.rnd.html">
+            
+                    
+                    产生一个随机数 (sys.rnd)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11.9" data-path="../sys/sys.memory_info.html">
+            
+                <a href="../sys/sys.memory_info.html">
+            
+                    
+                    获取设备当前内存状态信息 (sys.memory_info)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11.10" data-path="../sys/sys.available_memory.html">
+            
+                <a href="../sys/sys.available_memory.html">
+            
+                    
+                    获取设备当前可用内存值 (sys.available_memory)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11.11" data-path="../sys/sys.free_disk_space.html">
+            
+                <a href="../sys/sys.free_disk_space.html">
+            
+                    
+                    获取设备当前未使用的存储空间值 (sys.free_disk_space)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11.12" data-path="../sys/sys.log.html">
+            
+                <a href="../sys/sys.log.html">
+            
+                    
+                    输出标准系统日志 (sys.log)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11.13" data-path="../sys/sys.mgcopyanswer.html">
+            
+                <a href="../sys/sys.mgcopyanswer.html">
+            
+                    
+                    问系统一个问题 (sys.mgcopyanswer)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11.14" data-path="../sys/sys.version.html">
+            
+                <a href="../sys/sys.version.html">
+            
+                    
+                    获取系统版本 (sys.version)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11.15" data-path="../sys/sys.xtversion.html">
+            
+                <a href="../sys/sys.xtversion.html">
+            
+                    
+                    获取 XXTouch 版本 (sys.xtversion)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.12" data-path="../pasteboard/index.html">
+            
+                <a href="../pasteboard/index.html">
+            
+                    
+                    剪贴板模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.12.1" data-path="../pasteboard/pasteboard.write.html">
+            
+                <a href="../pasteboard/pasteboard.write.html">
+            
+                    
+                    写内容进剪贴板 (pasteboard.write)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.12.2" data-path="../pasteboard/pasteboard.read.html">
+            
+                <a href="../pasteboard/pasteboard.read.html">
+            
+                    
+                    获取剪贴板中的数据 (pasteboard.read)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13" data-path="../dialog/index.html">
+            
+                <a href="../dialog/index.html">
+            
+                    
+                    对话框模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.13.1" data-path="../dialog/dialog.html">
+            
+                <a href="../dialog/dialog.html">
+            
+                    
+                    ! 建立一个对话框对象 (dialog)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13.2" data-path="../dialog/_config.html">
+            
+                <a href="../dialog/_config.html">
+            
+                    
+                    配置对话框配置保存文件名 (:config)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13.3" data-path="../dialog/_set_config.html">
+            
+                <a href="../dialog/_set_config.html">
+            
+                    
+                    配置对话框配置保存文件名 (:set_config)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13.4" data-path="../dialog/_timeout.html">
+            
+                <a href="../dialog/_timeout.html">
+            
+                    
+                    配置对话框自动消失时间 (:timeout)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13.5" data-path="../dialog/_set_timeout.html">
+            
+                <a href="../dialog/_set_timeout.html">
+            
+                    
+                    配置对话框自动消失时间 (:set_timeout)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13.6" data-path="../dialog/_title.html">
+            
+                <a href="../dialog/_title.html">
+            
+                    
+                    配置对话框的标题 (:title)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13.7" data-path="../dialog/_set_title.html">
+            
+                <a href="../dialog/_set_title.html">
+            
+                    
+                    配置对话框的标题 (:set_title)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13.8" data-path="../dialog/_set_size.html">
+            
+                <a href="../dialog/_set_size.html">
+            
+                    
+                    配置对话框的尺寸 (:set_size)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13.9" data-path="../dialog/_set_frame.html">
+            
+                <a href="../dialog/_set_frame.html">
+            
+                    
+                    配置对话框的位置及尺寸 (:set_frame)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13.10" data-path="../dialog/_set_corner_radius.html">
+            
+                <a href="../dialog/_set_corner_radius.html">
+            
+                    
+                    配置对话框的圆角半径 (:set_corner_radius)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13.11" data-path="../dialog/_add_label.html">
+            
+                <a href="../dialog/_add_label.html">
+            
+                    
+                    给对话框加上一个文本标签 (:add_label)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13.12" data-path="../dialog/_add_input.html">
+            
+                <a href="../dialog/_add_input.html">
+            
+                    
+                    给对话框加上一个文本输入框 (:add_input)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13.13" data-path="../dialog/_add_image.html">
+            
+                <a href="../dialog/_add_image.html">
+            
+                    
+                    给对话框加上一个图片 (:add_image)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13.14" data-path="../dialog/_add_switch.html">
+            
+                <a href="../dialog/_add_switch.html">
+            
+                    
+                    给对话框加上一个开关 (:add_switch)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13.15" data-path="../dialog/_add_picker.html">
+            
+                <a href="../dialog/_add_picker.html">
+            
+                    
+                    给对话框加上一个选择器 (:add_picker)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13.16" data-path="../dialog/_add_radio.html">
+            
+                <a href="../dialog/_add_radio.html">
+            
+                    
+                    给对话框加上一个单选组 (:add_radio)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13.17" data-path="../dialog/_add_checkbox.html">
+            
+                <a href="../dialog/_add_checkbox.html">
+            
+                    
+                    给对话框加上一个多选组 (:add_checkbox)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13.18" data-path="../dialog/_add_range.html">
+            
+                <a href="../dialog/_add_range.html">
+            
+                    
+                    给对话框加上一个数值选择器 (:add_range)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13.19" data-path="../dialog/_show.html">
+            
+                <a href="../dialog/_show.html">
+            
+                    
+                    ! 将对话框弹出来并返回用户的选择 (:show)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13.20" data-path="../dialog/_load.html">
+            
+                <a href="../dialog/_load.html">
+            
+                    
+                    ! 在不弹出对话框的情况下获得对话框配置 (:load)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.14" data-path="../clear/index.html">
+            
+                <a href="../clear/index.html">
+            
+                    
+                    清理模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.14.1" data-path="../clear/clear.keychain.html">
+            
+                <a href="../clear/clear.keychain.html">
+            
+                    
+                    清理某个或某组钥匙串信息 (clear.keychain)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.14.2" data-path="../clear/clear.all_keychain.html">
+            
+                <a href="../clear/clear.all_keychain.html">
+            
+                    
+                    清理所有应用程序钥匙串信息 (clear.all_keychain)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.14.3" data-path="../clear/clear.pasteboard.html">
+            
+                <a href="../clear/clear.pasteboard.html">
+            
+                    
+                    清理剪贴板 (clear.pasteboard)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.14.4" data-path="../clear/clear.cookies.html">
+            
+                <a href="../clear/clear.cookies.html">
+            
+                    
+                    清理浏览器Cookies (clear.cookies)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.14.5" data-path="../clear/clear.caches.html">
+            
+                <a href="../clear/clear.caches.html">
+            
+                    
+                    清理系统缓存 (clear.caches)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.14.6" data-path="../clear/clear.all_photos.html">
+            
+                <a href="../clear/clear.all_photos.html">
+            
+                    
+                    清除相册中所有本地照片 (clear.all_photos)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.14.7" data-path="../clear/clear.app_data.html">
+            
+                <a href="../clear/clear.app_data.html">
+            
+                    
+                    清理某个应用的存档数据 (clear.app_data)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.14.8" data-path="../clear/clear.idfav.html">
+            
+                <a href="../clear/clear.idfav.html">
+            
+                    
+                    清理 IDFA/V (clear.idfav)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15" data-path="index.html">
+            
+                <a href="index.html">
+            
+                    
+                    应用程序模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.15.1" data-path="app.bundle_path.html">
+            
+                <a href="app.bundle_path.html">
+            
+                    
+                    获取 App 的应用程序包路径 (app.bundle_path)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15.2" data-path="app.data_path.html">
+            
+                <a href="app.data_path.html">
+            
+                    
+                    获取 App 的应用存档路径 (app.data_path)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15.3" data-path="app.group_info.html">
+            
+                <a href="app.group_info.html">
+            
+                    
+                    获取 App 的应用分组信息 (app.group_info)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15.4" data-path="app.pop_banner.html">
+            
+                <a href="app.pop_banner.html">
+            
+                    
+                    弹出一个应用通知 (app.pop_banner)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15.5" data-path="app.run.html">
+            
+                <a href="app.run.html">
+            
+                    
+                    运行应用程序 (app.run)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15.6" data-path="app.close.html">
+            
+                <a href="app.close.html">
+            
+                    
+                    关闭应用程序 (app.close)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.15.7" data-path="app.quit.html">
+            
+                <a href="app.quit.html">
+            
+                    
+                    模拟使用上划退出应用程序 (app.quit)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15.8" data-path="app.is_running.html">
+            
+                <a href="app.is_running.html">
+            
+                    
+                    检测应用程序是否正在运行 (app.is_running)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15.9" data-path="app.input_text.html">
+            
+                <a href="app.input_text.html">
+            
+                    
+                    输入文字 (app.input_text)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15.10" data-path="app.localized_name.html">
+            
+                <a href="app.localized_name.html">
+            
+                    
+                    通过应用程序 bid 获取应用的本地化名字 (app.localized_name)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15.11" data-path="app.png_data_for_bid.html">
+            
+                <a href="app.png_data_for_bid.html">
+            
+                    
+                    通过应用程序 bid 获取应用的图标数据 (app.png_data_for_bid)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15.12" data-path="app.pid_for_bid.html">
+            
+                <a href="app.pid_for_bid.html">
+            
+                    
+                    通过应用程序 bid 获取其 pid (app.pid_for_bid)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15.13" data-path="app.used_memory.html">
+            
+                <a href="app.used_memory.html">
+            
+                    
+                    获取应用程序当前内存消耗 (app.used_memory)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15.14" data-path="app.front_bid.html">
+            
+                <a href="app.front_bid.html">
+            
+                    
+                    获取前台应用的 Bundle Identifier (app.front_bid)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15.15" data-path="app.front_pid.html">
+            
+                <a href="app.front_pid.html">
+            
+                    
+                    获取前台应用的 Process Identifier (app.front_pid)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15.16" data-path="app.open_url.html">
+            
+                <a href="app.open_url.html">
+            
+                    
+                    前台打开一个 URL (app.open_url)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15.17" data-path="app.bundles.html">
+            
+                <a href="app.bundles.html">
+            
+                    
+                    获取设备所有的应用的 Bundle Identifier 列表 (app.bundles)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15.18" data-path="app.all_procs.html">
+            
+                <a href="app.all_procs.html">
+            
+                    
+                    获取当前设备的进程列表 (app.all_procs)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15.19" data-path="app.set_speed_add.html">
+            
+                <a href="app.set_speed_add.html">
+            
+                    
+                    设置前台应用程序加速齿轮 (app.set_speed_add)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15.20" data-path="app.install.html">
+            
+                <a href="app.install.html">
+            
+                    
+                    安装IPA安装包 (app.install)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15.21" data-path="app.uninstall.html">
+            
+                <a href="app.uninstall.html">
+            
+                    
+                    卸载一个应用 (app.uninstall)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15.22" data-path="tips.html">
+            
+                <a href="tips.html">
+            
+                    
+                    备注
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16" data-path="../device/index.html">
+            
+                <a href="../device/index.html">
+            
+                    
+                    设备相关模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.16.1" data-path="../device/device.reset_idle.html">
+            
+                <a href="../device/device.reset_idle.html">
+            
+                    
+                    重置自动锁屏倒计时 (device.reset_idle)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.2" data-path="../device/device.lock_screen.html">
+            
+                <a href="../device/device.lock_screen.html">
+            
+                    
+                    锁定屏幕 (device.lock_screen)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.3" data-path="../device/device.unlock_screen.html">
+            
+                <a href="../device/device.unlock_screen.html">
+            
+                    
+                    解锁屏幕 (device.unlock_screen)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.4" data-path="../device/device.is_screen_locked.html">
+            
+                <a href="../device/device.is_screen_locked.html">
+            
+                    
+                    获取屏幕锁定状态 (device.is_screen_locked)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.5" data-path="../device/device.front_orien.html">
+            
+                <a href="../device/device.front_orien.html">
+            
+                    
+                    获取前台应用的画面方向 (device.front_orien)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.6" data-path="../device/device.lock_orien.html">
+            
+                <a href="../device/device.lock_orien.html">
+            
+                    
+                    锁定设备屏幕旋转 (device.lock_orien)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.7" data-path="../device/device.unlock_orien.html">
+            
+                <a href="../device/device.unlock_orien.html">
+            
+                    
+                    解锁设备屏幕旋转锁 (device.unlock_orien)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.8" data-path="../device/device.is_orien_locked.html">
+            
+                <a href="../device/device.is_orien_locked.html">
+            
+                    
+                    获取屏幕旋转锁锁定状态 (device.is_orien_locked)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.9" data-path="../device/device.vibrator.html">
+            
+                <a href="../device/device.vibrator.html">
+            
+                    
+                    振动设备 (device.vibrator)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.10" data-path="../device/device.play_sound.html">
+            
+                <a href="../device/device.play_sound.html">
+            
+                    
+                    后台播放声音 (device.play_sound)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.11" data-path="../device/device.type.html">
+            
+                <a href="../device/device.type.html">
+            
+                    
+                    获取设备类型 (device.type)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.12" data-path="../device/device.name.html">
+            
+                <a href="../device/device.name.html">
+            
+                    
+                    获取设备名 (device.name)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.13" data-path="../device/device.set_name.html">
+            
+                <a href="../device/device.set_name.html">
+            
+                    
+                    设置设备名 (device.set_name)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.14" data-path="../device/device.udid.html">
+            
+                <a href="../device/device.udid.html">
+            
+                    
+                    获取设备UDID (device.udid)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.15" data-path="../device/device.serial_number.html">
+            
+                <a href="../device/device.serial_number.html">
+            
+                    
+                    获取设备的序列号 (device.serial_number)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.16" data-path="../device/device.wifi_mac.html">
+            
+                <a href="../device/device.wifi_mac.html">
+            
+                    
+                    获取设备的 WiFi MAC 地址 (device.wifi_mac)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.17" data-path="../device/device.ifaddrs.html">
+            
+                <a href="../device/device.ifaddrs.html">
+            
+                    
+                    获取设备所有的接口 IP (device.ifaddrs)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.18" data-path="../device/device.battery_level.html">
+            
+                <a href="../device/device.battery_level.html">
+            
+                    
+                    获取当前设备电池剩余电量 (device.battery_level)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.19" data-path="../device/device.battery_state.html">
+            
+                <a href="../device/device.battery_state.html">
+            
+                    
+                    获取当前设备充电状态 (device.battery_state)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.20" data-path="../device/device.turn_on_wifi.html">
+            
+                <a href="../device/device.turn_on_wifi.html">
+            
+                    
+                    打开设备 WiFi (device.turn_on_wifi)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.21" data-path="../device/device.turn_off_wifi.html">
+            
+                <a href="../device/device.turn_off_wifi.html">
+            
+                    
+                    关闭设备 WiFi (device.turn_off_wifi)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.22" data-path="../device/device.turn_on_data.html">
+            
+                <a href="../device/device.turn_on_data.html">
+            
+                    
+                    打开设备蜂窝数据 (device.turn_on_data)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.23" data-path="../device/device.turn_off_data.html">
+            
+                <a href="../device/device.turn_off_data.html">
+            
+                    
+                    关闭设备蜂窝数据 (device.turn_off_data)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.24" data-path="../device/device.turn_on_bluetooth.html">
+            
+                <a href="../device/device.turn_on_bluetooth.html">
+            
+                    
+                    打开设备蓝牙 (device.turn_on_bluetooth)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.25" data-path="../device/device.turn_off_bluetooth.html">
+            
+                <a href="../device/device.turn_off_bluetooth.html">
+            
+                    
+                    关闭设备蓝牙 (device.turn_off_bluetooth)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.26" data-path="../device/device.turn_on_airplane.html">
+            
+                <a href="../device/device.turn_on_airplane.html">
+            
+                    
+                    打开设备飞行模式 (device.turn_on_airplane)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.27" data-path="../device/device.turn_off_airplane.html">
+            
+                <a href="../device/device.turn_off_airplane.html">
+            
+                    
+                    关闭设备飞行模式 (device.turn_off_airplane)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.28" data-path="../device/device.turn_on_vpn.html">
+            
+                <a href="../device/device.turn_on_vpn.html">
+            
+                    
+                    连接到当前设置所选 VPN (device.turn_on_vpn)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.29" data-path="../device/device.turn_off_vpn.html">
+            
+                <a href="../device/device.turn_off_vpn.html">
+            
+                    
+                    断开已有的 VPN 连接 (device.turn_off_vpn)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.30" data-path="../device/device.is_vpn_on.html">
+            
+                <a href="../device/device.is_vpn_on.html">
+            
+                    
+                    判断当前是否打开了 VPN 开关 (device.is_vpn_on)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.31" data-path="../device/device.flash_on.html">
+            
+                <a href="../device/device.flash_on.html">
+            
+                    
+                    打开设备闪光灯 (device.flash_on)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.32" data-path="../device/device.flash_off.html">
+            
+                <a href="../device/device.flash_off.html">
+            
+                    
+                    关闭设备闪光灯 (device.flash_off)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.33" data-path="../device/device.reduce_motion_on.html">
+            
+                <a href="../device/device.reduce_motion_on.html">
+            
+                    
+                    打开“减少动态效果”开关 (device.reduce_motion_on)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.34" data-path="../device/device.reduce_motion_off.html">
+            
+                <a href="../device/device.reduce_motion_off.html">
+            
+                    
+                    关闭“减少动态效果”开关 (device.reduce_motion_off)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.35" data-path="../device/device.assistive_touch_on.html">
+            
+                <a href="../device/device.assistive_touch_on.html">
+            
+                    
+                    打开 AssistiveTouch (device.assistive_touch_on)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.36" data-path="../device/device.assistive_touch_off.html">
+            
+                <a href="../device/device.assistive_touch_off.html">
+            
+                    
+                    关闭 AssistiveTouch (device.assistive_touch_off)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.37" data-path="../device/device.brightness.html">
+            
+                <a href="../device/device.brightness.html">
+            
+                    
+                    获取背光亮度值 (device.brightness)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.38" data-path="../device/device.set_brightness.html">
+            
+                <a href="../device/device.set_brightness.html">
+            
+                    
+                    设置背光亮度 (device.set_brightness)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.39" data-path="../device/device.set_autolock_time.html">
+            
+                <a href="../device/device.set_autolock_time.html">
+            
+                    
+                    设置自动锁屏分钟数 (device.set_autolock_time)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.40" data-path="../device/device.set_volume.html">
+            
+                <a href="../device/device.set_volume.html">
+            
+                    
+                    设置设备音量 (device.set_volume)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16.41" data-path="../device/device.join_wifi.html">
+            
+                <a href="../device/device.join_wifi.html">
+            
+                    
+                    加入到一个无线局域网 (device.join_wifi)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17" data-path="../image/index.html">
+            
+                <a href="../image/index.html">
+            
+                    
+                    图片对象模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.17.1" data-path="../image/image.is.html">
+            
+                <a href="../image/image.is.html">
+            
+                    
+                    判断一个值是否是图片对象 (image.is)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.2" data-path="../image/image.new.html">
+            
+                <a href="../image/image.new.html">
+            
+                    
+                    创建指定尺寸空白图片对象 (image.new)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.3" data-path="../image/image.oper_merge.html">
+            
+                <a href="../image/image.oper_merge.html">
+            
+                    
+                    图像合并 (image.oper_merge)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.4" data-path="../image/image.new_text_image.html">
+            
+                <a href="../image/image.new_text_image.html">
+            
+                    
+                    新建一个文本图片对象 (image.new_text_image)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.5" data-path="../image/image.load_file.html">
+            
+                <a href="../image/image.load_file.html">
+            
+                    
+                    从文件创建图片对象 (image.load_file)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.6" data-path="../image/image.load_data.html">
+            
+                <a href="../image/image.load_data.html">
+            
+                    
+                    从数据创建图片对象 (image.load_data)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.7" data-path="../image/_copy.html">
+            
+                <a href="../image/_copy.html">
+            
+                    
+                    从图片对象创建拷贝图片对象 (:copy)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.8" data-path="../image/_crop.html">
+            
+                <a href="../image/_crop.html">
+            
+                    
+                    从图片对象截取部分新建拷贝图片对象 (:crop)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.9" data-path="../image/_save_to_album.html">
+            
+                <a href="../image/_save_to_album.html">
+            
+                    
+                    保存图片对象到相册 (:save_to_album)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.10" data-path="../image/_save_to_png_file.html">
+            
+                <a href="../image/_save_to_png_file.html">
+            
+                    
+                    输出图片对象到一个 PNG 格式的文件 (:save_to_png_file)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.11" data-path="../image/_save_to_jpeg_file.html">
+            
+                <a href="../image/_save_to_jpeg_file.html">
+            
+                    
+                    输出图片对象到一个 JPEG 格式的文件 (:save_to_jpeg_file)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.12" data-path="../image/_png_data.html">
+            
+                <a href="../image/_png_data.html">
+            
+                    
+                    获取图片对象的 PNG 格式数据 (:png_data)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.13" data-path="../image/_jpeg_data.html">
+            
+                <a href="../image/_jpeg_data.html">
+            
+                    
+                    获取图片对象的 JPEG 格式数据 (:jpeg_data)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.14" data-path="../image/_turn_left.html">
+            
+                <a href="../image/_turn_left.html">
+            
+                    
+                    90度左旋图片对象 (:turn_left)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.15" data-path="../image/_turn_right.html">
+            
+                <a href="../image/_turn_right.html">
+            
+                    
+                    90度右旋图片对象 (:turn_right)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.16" data-path="../image/_turn_upondown.html">
+            
+                <a href="../image/_turn_upondown.html">
+            
+                    
+                    180度旋转图片对象 (:turn_upondown)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.17" data-path="../image/_size.html">
+            
+                <a href="../image/_size.html">
+            
+                    
+                    获取图片对象的尺寸 (:size)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.18" data-path="../image/_get_color.html">
+            
+                <a href="../image/_get_color.html">
+            
+                    
+                    获取图片对象某点颜色 (:get_color)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.19" data-path="../image/_set_color.html">
+            
+                <a href="../image/_set_color.html">
+            
+                    
+                    设置图片对象某点颜色 (:set_color)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.20" data-path="../image/_replace_color.html">
+            
+                <a href="../image/_replace_color.html">
+            
+                    
+                    颜色替换 (:replace_color)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.21" data-path="../image/_draw_image.html">
+            
+                <a href="../image/_draw_image.html">
+            
+                    
+                    图中贴图 (:draw_image)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.22" data-path="../image/_binaryzation.html">
+            
+                <a href="../image/_binaryzation.html">
+            
+                    
+                    二值化处理图片对象 (:binaryzation)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.23" data-path="../image/_find_color.html">
+            
+                <a href="../image/_find_color.html">
+            
+                    
+                    在图上找色 (:find_color)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.24" data-path="../image/_is_colors.html">
+            
+                <a href="../image/_is_colors.html">
+            
+                    
+                    图片多点颜色匹配 (:is_colors)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.25" data-path="../image/_qr_decode.html">
+            
+                <a href="../image/_qr_decode.html">
+            
+                    
+                    解码一个二维码图片 (:qr_decode)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.26" data-path="../image/_destroy.html">
+            
+                <a href="../image/_destroy.html">
+            
+                    
+                    销毁一个图片对象 (:destroy)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.27" data-path="../image/_cv_find_image.html">
+            
+                <a href="../image/_cv_find_image.html">
+            
+                    
+                    cv - 图中找图 (:cv_find_image)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.28" data-path="../image/_cv_binaryzation.html">
+            
+                <a href="../image/_cv_binaryzation.html">
+            
+                    
+                    cv - 图片自动二值化 (:cv_binaryzation)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.29" data-path="../image/_cv_resize.html">
+            
+                <a href="../image/_cv_resize.html">
+            
+                    
+                    cv - 从图片创建一个拉伸的另外尺寸的图片 (:cv_resize)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17.30" data-path="../image/_tess_ocr.html">
+            
+                <a href="../image/_tess_ocr.html">
+            
+                    
+                    tesseract - 对图片进行 ocr 识别 (:tess_ocr)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.18" data-path="../proc/index.html">
+            
+                <a href="../proc/index.html">
+            
+                    
+                    进程字典
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.18.1" data-path="../proc/proc_put.html">
+            
+                <a href="../proc/proc_put.html">
+            
+                    
+                    存储值到进程字典 (proc_put)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.18.2" data-path="../proc/proc_get.html">
+            
+                <a href="../proc/proc_get.html">
+            
+                    
+                    查看进程字典存储的值 (proc_get)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.18.3" data-path="../proc/proc_queue_push.html">
+            
+                <a href="../proc/proc_queue_push.html">
+            
+                    
+                    向进程队列词典中压入一个值 (proc_queue_push)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.18.4" data-path="../proc/proc_queue_pop.html">
+            
+                <a href="../proc/proc_queue_pop.html">
+            
+                    
+                    从进程队列词典中弹出一个值 (proc_queue_pop)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.18.5" data-path="../proc/proc_queue_clear.html">
+            
+                <a href="../proc/proc_queue_clear.html">
+            
+                    
+                    从进程队列词典中弹出所有值 (proc_queue_clear)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.18.6" data-path="../proc/proc_queue_size.html">
+            
+                <a href="../proc/proc_queue_size.html">
+            
+                    
+                    获取进程队列词典的尺寸 (proc_queue_size)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.18.7" data-path="../proc/proc_queue_push_front.html">
+            
+                <a href="../proc/proc_queue_push_front.html">
+            
+                    
+                    向进程队列词典头部压入一个值 (proc_queue_push_front)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.18.8" data-path="../proc/proc_queue_push_back.html">
+            
+                <a href="../proc/proc_queue_push_back.html">
+            
+                    
+                    向进程队列词典尾部压入一个值 (proc_queue_push_back)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.18.9" data-path="../proc/proc_queue_pop_front.html">
+            
+                <a href="../proc/proc_queue_pop_front.html">
+            
+                    
+                    从进程队列词典头部弹出一个值 (proc_queue_pop_front)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.18.10" data-path="../proc/proc_queue_pop_back.html">
+            
+                <a href="../proc/proc_queue_pop_back.html">
+            
+                    
+                    从进程队列词典尾部弹出一个值 (proc_queue_pop_back)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.19" data-path="../thread/index.html">
+            
+                <a href="../thread/index.html">
+            
+                    
+                    线程模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.19.1" data-path="../thread/START.html">
+            
+                <a href="../thread/START.html">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.19.2" data-path="../thread/thread.dispatch.html">
+            
+                <a href="../thread/thread.dispatch.html">
+            
+                    
+                    派发一个任务 (thread.dispatch)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.19.3" data-path="../thread/thread.current_id.html">
+            
+                <a href="../thread/thread.current_id.html">
+            
+                    
+                    获取当前任务的 ID (thread.current_id)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.19.4" data-path="../thread/thread.kill.html">
+            
+                <a href="../thread/thread.kill.html">
+            
+                    
+                    从队列中移除一项任务 (thread.kill)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.19.5" data-path="../thread/thread.wait.html">
+            
+                <a href="../thread/thread.wait.html">
+            
+                    
+                    阻塞等待一个任务完成 (thread.wait)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.19.6" data-path="../thread/thread.register_event.html">
+            
+                <a href="../thread/thread.register_event.html">
+            
+                    
+                    注册监听一个事件 (thread.register_event)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.19.7" data-path="../thread/thread.unregister_event.html">
+            
+                <a href="../thread/thread.unregister_event.html">
+            
+                    
+                    反注册监听一个事件 (thread.unregister_event)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.19.8" data-path="../thread/samples.html">
+            
+                <a href="../thread/samples.html">
+            
+                    
+                    thread 示例代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.20" data-path="../webview/index.html">
+            
+                <a href="../webview/index.html">
+            
+                    
+                    Web 视图模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.20.1" data-path="../webview/webview.show.html">
+            
+                <a href="../webview/webview.show.html">
+            
+                    
+                    展现一个 webview (webview.show)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.20.2" data-path="../webview/webview.hide.html">
+            
+                <a href="../webview/webview.hide.html">
+            
+                    
+                    隐藏一个 webview (webview.hide)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.20.3" data-path="../webview/webview.eval.html">
+            
+                <a href="../webview/webview.eval.html">
+            
+                    
+                    在一个 webview 上执行一段 JS (webview.eval)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.20.4" data-path="../webview/webview.frame.html">
+            
+                <a href="../webview/webview.frame.html">
+            
+                    
+                    获取一个 webview 的区域及层级信息 (webview.frame)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.20.5" data-path="../webview/webview.destroy.html">
+            
+                <a href="../webview/webview.destroy.html">
+            
+                    
+                    销毁一个 webview (webview.destroy)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.20.6" data-path="../webview/samples.html">
+            
+                <a href="../webview/samples.html">
+            
+                    
+                    webview 使用示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.21" data-path="../xpp/index.html">
+            
+                <a href="../xpp/index.html">
+            
+                    
+                    XPP 脚本包模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.21.1" data-path="../xpp/START.html">
+            
+                <a href="../xpp/START.html">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.21.2" data-path="../xpp/xpp.info.html">
+            
+                <a href="../xpp/xpp.info.html">
+            
+                    
+                    获取当前脚本包的元信息 (xpp.info)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.21.3" data-path="../xpp/xpp.bundle_path.html">
+            
+                <a href="../xpp/xpp.bundle_path.html">
+            
+                    
+                    获取当前脚本包的包路径 (xpp.bundle_path)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.21.4" data-path="../xpp/xpp.resource_path.html">
+            
+                <a href="../xpp/xpp.resource_path.html">
+            
+                    
+                    获取当前脚本包中的资源路径 (xpp.resource_path)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.22" data-path="../xui/index.html">
+            
+                <a href="../xui/index.html">
+            
+                    
+                    XUI 脚本配置界面模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.22.1" data-path="../xui/START.html">
+            
+                <a href="../xui/START.html">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.22.2" data-path="../xui/xui.show.html">
+            
+                <a href="../xui/xui.show.html">
+            
+                    
+                    展示一个配置界面 (xui.show)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.22.3" data-path="../xui/xui.dismiss.html">
+            
+                <a href="../xui/xui.dismiss.html">
+            
+                    
+                    收起正在展示的配置界面 (xui.dismiss)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.22.4" data-path="../xui/xui.setup.html">
+            
+                <a href="../xui/xui.setup.html">
+            
+                    
+                    校验配置界面的配置 (xui.setup)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.22.5" data-path="../xui/xui.reload.html">
+            
+                <a href="../xui/xui.reload.html">
+            
+                    
+                    重新加载当前正在展示的配置界面 (xui.reload)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.22.6" data-path="../xui/xui.get.html">
+            
+                <a href="../xui/xui.get.html">
+            
+                    
+                    获取配置界面的配置值 (xui.get)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.22.7" data-path="../xui/xui.set.html">
+            
+                <a href="../xui/xui.set.html">
+            
+                    
+                    设置配置界面上的某个控件的值 (xui.set)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.22.8" data-path="../xui/xui.read.html">
+            
+                <a href="../xui/xui.read.html">
+            
+                    
+                    读取某个配置分区所有配置 (xui.read)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.22.9" data-path="../xui/xui.write.html">
+            
+                <a href="../xui/xui.write.html">
+            
+                    
+                    覆盖写入配置表到某个配置分区 (xui.write)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.22.10" data-path="../xui/xui.clear.html">
+            
+                <a href="../xui/xui.clear.html">
+            
+                    
+                    清除某个配置分区所有的配置 (xui.clear)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.23" data-path="../ext-table/index.html">
+            
+                <a href="../ext-table/index.html">
+            
+                    
+                    扩展 table 模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.23.1" data-path="../ext-table/START.html">
+            
+                <a href="../ext-table/START.html">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.23.2" data-path="../ext-table/table.deep_copy.html">
+            
+                <a href="../ext-table/table.deep_copy.html">
+            
+                    
+                    深拷贝一个表 (table.deep_copy)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.23.3" data-path="../ext-table/table.deep_print.html">
+            
+                <a href="../ext-table/table.deep_print.html">
+            
+                    
+                    深打印一个表 (table.deep_print)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.23.4" data-path="../ext-table/table.load_string.html">
+            
+                <a href="../ext-table/table.load_string.html">
+            
+                    
+                    从字符串加载一个表 (table.load_string)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.24" data-path="../ext-string/index.html">
+            
+                <a href="../ext-string/index.html">
+            
+                    
+                    扩展 string 模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.24.1" data-path="../ext-string/START.html">
+            
+                <a href="../ext-string/START.html">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.24.2" data-path="../ext-string/string.to_hex.html">
+            
+                <a href="../ext-string/string.to_hex.html">
+            
+                    
+                    转成 16 进制文本 (string.to_hex)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.24.3" data-path="../ext-string/string.from_hex.html">
+            
+                <a href="../ext-string/string.from_hex.html">
+            
+                    
+                    从 16 进制文本转回 (string.from_hex)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.24.4" data-path="../ext-string/string.from_gbk.html">
+            
+                <a href="../ext-string/string.from_gbk.html">
+            
+                    
+                    将 GBK 编码的文本转成 UTF-8 编码的文本 (string.from_gbk)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.24.5" data-path="../ext-string/string.md5.html">
+            
+                <a href="../ext-string/string.md5.html">
+            
+                    
+                    计算字符串的 md5 哈希值 (string.md5)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.24.6" data-path="../ext-string/string.sha1.html">
+            
+                <a href="../ext-string/string.sha1.html">
+            
+                    
+                    计算字符串的 sha1 哈希值 (string.sha1)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.24.7" data-path="../ext-string/string.base64_encode.html">
+            
+                <a href="../ext-string/string.base64_encode.html">
+            
+                    
+                    对字符串进行 base64 编码 (string.base64_encode)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.24.8" data-path="../ext-string/string.base64_decode.html">
+            
+                <a href="../ext-string/string.base64_decode.html">
+            
+                    
+                    对 base64 编码的文本进行解码 (string.base64_decode)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.24.9" data-path="../ext-string/string.aes128_encrypt.html">
+            
+                <a href="../ext-string/string.aes128_encrypt.html">
+            
+                    
+                    对字符串进行加密 (string.aes128_encrypt)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.24.10" data-path="../ext-string/string.aes128_decrypt.html">
+            
+                <a href="../ext-string/string.aes128_decrypt.html">
+            
+                    
+                    解密一段已加密的字符串 (string.aes128_decrypt)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.24.11" data-path="../ext-string/string.split.html">
+            
+                <a href="../ext-string/string.split.html">
+            
+                    
+                    用分隔符规则分割一个字符串 (string.split)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.24.12" data-path="../ext-string/string.ltrim.html">
+            
+                <a href="../ext-string/string.ltrim.html">
+            
+                    
+                    去除文本左边空白字符 (string.ltrim)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.24.13" data-path="../ext-string/string.rtrim.html">
+            
+                <a href="../ext-string/string.rtrim.html">
+            
+                    
+                    去除文本右边空白字符 (string.rtrim)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.24.14" data-path="../ext-string/string.trim.html">
+            
+                <a href="../ext-string/string.trim.html">
+            
+                    
+                    去除文本左右两边空白字符 (string.trim)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.24.15" data-path="../ext-string/string.atrim.html">
+            
+                <a href="../ext-string/string.atrim.html">
+            
+                    
+                    去除文本中所有的空白字符 (string.atrim)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.24.16" data-path="../ext-string/string.strip_utf8_bom.html">
+            
+                <a href="../ext-string/string.strip_utf8_bom.html">
+            
+                    
+                    去除掉文本前的 UTF8-BOM (string.strip_utf8_bom)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.24.17" data-path="../ext-string/string.random.html">
+            
+                <a href="../ext-string/string.random.html">
+            
+                    
+                    生成随机字符串 (string.random)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.24.18" data-path="../ext-string/string.compare_version.html">
+            
+                <a href="../ext-string/string.compare_version.html">
+            
+                    
+                    比较两个版本号大小 (string.compare_version)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.24.19" data-path="../ext-string/samples.html">
+            
+                <a href="../ext-string/samples.html">
+            
+                    
+                    扩展 string 示例代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.25" data-path="../http/index.html">
+            
+                <a href="../http/index.html">
+            
+                    
+                    ! HTTP 模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.25.1" data-path="../http/START.html">
+            
+                <a href="../http/START.html">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.25.2" data-path="../http/http.get.html">
+            
+                <a href="../http/http.get.html">
+            
+                    
+                    发起 GET 请求 (http.get)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.25.3" data-path="../http/http.post.html">
+            
+                <a href="../http/http.post.html">
+            
+                    
+                    发起 POST 请求 (http.post)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.25.4" data-path="../http/http.download.html">
+            
+                <a href="../http/http.download.html">
+            
+                    
+                    HTTP 文件下载 (http.download)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.25.5" data-path="../http/http.head.html">
+            
+                <a href="../http/http.head.html">
+            
+                    
+                    发起 HEAD 请求 (http.head)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.25.6" data-path="../http/http.delete.html">
+            
+                <a href="../http/http.delete.html">
+            
+                    
+                    发起 DELETE 请求 (http.delete)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.25.7" data-path="../http/http.put.html">
+            
+                <a href="../http/http.put.html">
+            
+                    
+                    发起 PUT 请求 (http.put)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.26" data-path="../ftp/index.html">
+            
+                <a href="../ftp/index.html">
+            
+                    
+                    ! FTP 模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.26.1" data-path="../ftp/ftp.download.html">
+            
+                <a href="../ftp/ftp.download.html">
+            
+                    
+                    FTP 文件下载 (ftp.download)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.26.2" data-path="../ftp/ftp.upload.html">
+            
+                <a href="../ftp/ftp.upload.html">
+            
+                    
+                    FTP 文件上传 (ftp.upload)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.27" data-path="../json/index.html">
+            
+                <a href="../json/index.html">
+            
+                    
+                    JSON 模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.27.1" data-path="../json/START.html">
+            
+                <a href="../json/START.html">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.27.2" data-path="../json/json.encode.html">
+            
+                <a href="../json/json.encode.html">
+            
+                    
+                    将 Lua 值转成 JSON 字符串 (json.encode)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.27.3" data-path="../json/json.decode.html">
+            
+                <a href="../json/json.decode.html">
+            
+                    
+                    将 JSON 字符串转换成 Lua 值 (json.decode)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.27.4" data-path="../json/json.null.html">
+            
+                <a href="../json/json.null.html">
+            
+                    
+                    JSON 中的 NULL 常量 (json.null)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.28" data-path="../plist/index.html">
+            
+                <a href="../plist/index.html">
+            
+                    
+                    PLIST 文件读写模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.28.1" data-path="../plist/plist.read.html">
+            
+                <a href="../plist/plist.read.html">
+            
+                    
+                    读取 plist 文件 (plist.read)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.28.2" data-path="../plist/plist.write.html">
+            
+                <a href="../plist/plist.write.html">
+            
+                    
+                    写入 plist 文件 (plist.write)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.28.3" data-path="../plist/plist.load.html">
+            
+                <a href="../plist/plist.load.html">
+            
+                    
+                    读取属性表数据 (plist.load)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.28.4" data-path="../plist/plist.dump.html">
+            
+                <a href="../plist/plist.dump.html">
+            
+                    
+                    取 Lua 表的属性表数据 (plist.dump)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.29" data-path="../utils/index.html">
+            
+                <a href="../utils/index.html">
+            
+                    
+                    小工具模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.29.1" data-path="../utils/utils.add_contacts.html">
+            
+                <a href="../utils/utils.add_contacts.html">
+            
+                    
+                    给通讯录添加一个或多个联系人 (utils.add_contacts)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.29.2" data-path="../utils/utils.remove_all_contacts.html">
+            
+                <a href="../utils/utils.remove_all_contacts.html">
+            
+                    
+                    删除通讯录所有联系人 (utils.remove_all_contacts)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.29.3" data-path="../utils/utils.open_code_scanner.html">
+            
+                <a href="../utils/utils.open_code_scanner.html">
+            
+                    
+                    打开扫码器 (utils.open_code_scanner)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.29.4" data-path="../utils/utils.close_code_scanner.html">
+            
+                <a href="../utils/utils.close_code_scanner.html">
+            
+                    
+                    关闭扫码器 (utils.close_code_scanner)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.29.5" data-path="../utils/utils.qr_encode.html">
+            
+                <a href="../utils/utils.qr_encode.html">
+            
+                    
+                    将文本编码成二维码图片 (utils.qr_encode)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.29.6" data-path="../utils/utils.launch_args.html">
+            
+                <a href="../utils/utils.launch_args.html">
+            
+                    
+                    获得当前脚本的启动参数 (utils.launch_args)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.29.7" data-path="../utils/utils.is_launch_via_app.html">
+            
+                <a href="../utils/utils.is_launch_via_app.html">
+            
+                    
+                    判断当前脚本是否从 App 内启动 (utils.is_launch_via_app)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.29.8" data-path="../utils/utils.video_to_album.html">
+            
+                <a href="../utils/utils.video_to_album.html">
+            
+                    
+                    导入一个视频文件到相册 (utils.video_to_album)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.30" data-path="../file/index.html">
+            
+                <a href="../file/index.html">
+            
+                    
+                    文件操作模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.30.1" data-path="../file/file.exists.html">
+            
+                <a href="../file/file.exists.html">
+            
+                    
+                    判断一个文件或目录是否存在 (file.exists)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.30.2" data-path="../file/file.list.html">
+            
+                <a href="../file/file.list.html">
+            
+                    
+                    获取目录所有文件名列表 (file.list)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.30.3" data-path="../file/file.size.html">
+            
+                <a href="../file/file.size.html">
+            
+                    
+                    获得一个文件的尺寸 (file.size)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.30.4" data-path="../file/file.reads.html">
+            
+                <a href="../file/file.reads.html">
+            
+                    
+                    读取一个文件中的所有数据 (file.reads)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.30.5" data-path="../file/file.writes.html">
+            
+                <a href="../file/file.writes.html">
+            
+                    
+                    将数据覆盖写入到文件 (file.writes)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.30.6" data-path="../file/file.appends.html">
+            
+                <a href="../file/file.appends.html">
+            
+                    
+                    将数据追加到文件末尾 (file.appends)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.30.7" data-path="../file/file.line_count.html">
+            
+                <a href="../file/file.line_count.html">
+            
+                    
+                    统计一个文本文件的总行数 (file.line_count)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.30.8" data-path="../file/file.get_line.html">
+            
+                <a href="../file/file.get_line.html">
+            
+                    
+                    获取一个文本文件指定行的数据 (file.get_line)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.30.9" data-path="../file/file.set_line.html">
+            
+                <a href="../file/file.set_line.html">
+            
+                    
+                    设置文本文件指定行的内容 (file.set_line)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.30.10" data-path="../file/file.insert_line.html">
+            
+                <a href="../file/file.insert_line.html">
+            
+                    
+                    在文本文件指定行前插入内容 (file.insert_line)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.30.11" data-path="../file/file.remove_line.html">
+            
+                <a href="../file/file.remove_line.html">
+            
+                    
+                    移除文件中指定行 (file.remove_line)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.30.12" data-path="../file/file.get_lines.html">
+            
+                <a href="../file/file.get_lines.html">
+            
+                    
+                    获取一个文本文件的所有行 (file.get_lines)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.30.13" data-path="../file/file.set_lines.html">
+            
+                <a href="../file/file.set_lines.html">
+            
+                    
+                    将一个顺序表转换逐行覆盖写入到文件中 (file.set_lines)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.30.14" data-path="../file/file.insert_lines.html">
+            
+                <a href="../file/file.insert_lines.html">
+            
+                    
+                    将一个顺序表转换逐行插入到文件指定行前 (file.insert_lines)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.31" data-path="../vpnconf/index.html">
+            
+                <a href="../vpnconf/index.html">
+            
+                    
+                    VPN 配置模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.31.1" data-path="../vpnconf/vpnconf.create.html">
+            
+                <a href="../vpnconf/vpnconf.create.html">
+            
+                    
+                    创建一个 VPN 配置 (vpnconf.create)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.31.2" data-path="../vpnconf/vpnconf.list.html">
+            
+                <a href="../vpnconf/vpnconf.list.html">
+            
+                    
+                    获取当前系统 VPN 的列表 (vpnconf.list)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.31.3" data-path="../vpnconf/vpnconf.select.html">
+            
+                <a href="../vpnconf/vpnconf.select.html">
+            
+                    
+                    选择一个 VPN 配置 (vpnconf.select)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.31.4" data-path="../vpnconf/vpnconf.delete.html">
+            
+                <a href="../vpnconf/vpnconf.delete.html">
+            
+                    
+                    删除一个 VPN 配置 (vpnconf.delete)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.31.5" data-path="../vpnconf/vpnconf.connect.html">
+            
+                <a href="../vpnconf/vpnconf.connect.html">
+            
+                    
+                    以当前选择的 VPN 建立连接 (vpnconf.connect)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.31.6" data-path="../vpnconf/vpnconf.disconnect.html">
+            
+                <a href="../vpnconf/vpnconf.disconnect.html">
+            
+                    
+                    断开当前的 VPN 连接 (vpnconf.disconnect)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.31.7" data-path="../vpnconf/vpnconf.status.html">
+            
+                <a href="../vpnconf/vpnconf.status.html">
+            
+                    
+                    获取当前选择的 VPN 的状态 (vpnconf.status)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.32" data-path="../cloud_ocr/index.html">
+            
+                <a href="../cloud_ocr/index.html">
+            
+                    
+                    云打码模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.32.1" data-path="../cloud_ocr/cloud_ocr.ocr.html">
+            
+                <a href="../cloud_ocr/cloud_ocr.ocr.html">
+            
+                    
+                    初始化一个云打码平台 (cloud_ocr.ocr)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.32.2" data-path="../cloud_ocr/plat.ocr_screen.html">
+            
+                <a href="../cloud_ocr/plat.ocr_screen.html">
+            
+                    
+                    识别屏幕上的范围 (plat.ocr_screen)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.32.3" data-path="../cloud_ocr/plat.ocr_image.html">
+            
+                <a href="../cloud_ocr/plat.ocr_image.html">
+            
+                    
+                    识别图片文件 (plat.ocr_image)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.32.4" data-path="../cloud_ocr/plat.ocr_obj.html">
+            
+                <a href="../cloud_ocr/plat.ocr_obj.html">
+            
+                    
+                    识别图片对象 (plat.ocr_obj)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.32.5" data-path="../cloud_ocr/plat.report_error.html">
+            
+                <a href="../cloud_ocr/plat.report_error.html">
+            
+                    
+                    提交错误的识别 (plat.report_error)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.32.6" data-path="../cloud_ocr/samples.html">
+            
+                <a href="../cloud_ocr/samples.html">
+            
+                    
+                    cloud_ocr 示例代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.33" data-path="../system-callback/index.html">
+            
+                <a href="../system-callback/index.html">
+            
+                    
+                    系统回调消息
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.33.1" data-path="../system-callback/START.html">
+            
+                <a href="../system-callback/START.html">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.33.2" data-path="../system-callback/call.html">
+            
+                <a href="../system-callback/call.html">
+            
+                    
+                    电话呼入呼出回调消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.33.3" data-path="../system-callback/scan.html">
+            
+                <a href="../system-callback/scan.html">
+            
+                    
+                    扫码结果回调消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.33.4" data-path="../system-callback/activator.html">
+            
+                <a href="../system-callback/activator.html">
+            
+                    
+                    Activator 事件回调消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.33.5" data-path="../system-callback/hid.html">
+            
+                <a href="../system-callback/hid.html">
+            
+                    
+                    HID 事件消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.34" data-path="../gps/index.html">
+            
+                <a href="../gps/index.html">
+            
+                    
+                    地理位置伪装
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.34.1" data-path="../gps/gps.fake.html">
+            
+                <a href="../gps/gps.fake.html">
+            
+                    
+                    伪装GPS位置 (gps.fake)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.34.2" data-path="../gps/gps.clear.html">
+            
+                <a href="../gps/gps.clear.html">
+            
+                    
+                    清除GPS伪装信息 (gps.clear)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.35" data-path="../extensions/index.html">
+            
+                <a href="../extensions/index.html">
+            
+                    
+                    外部扩展
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.35.1" data-path="../extensions/dm.html">
+            
+                <a href="../extensions/dm.html">
+            
+                    
+                    大漠找字/文字识别 模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.36" data-path="../open-source/index.html">
+            
+                <a href="../open-source/index.html">
+            
+                    
+                    已集成的开源扩展库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.36.1" data-path="../open-source/luacjson.html">
+            
+                <a href="../open-source/luacjson.html">
+            
+                    
+                    LuaCJSON 扩展库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.36.2" data-path="../open-source/luasocket.html">
+            
+                <a href="../open-source/luasocket.html">
+            
+                    
+                    LuaSocket 扩展库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.36.3" data-path="../open-source/luaiconv.html">
+            
+                <a href="../open-source/luaiconv.html">
+            
+                    
+                    luaiconv 编码转换扩展库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.36.4" data-path="../open-source/lpeg.html">
+            
+                <a href="../open-source/lpeg.html">
+            
+                    
+                    lpeg 扩展库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.36.5" data-path="../open-source/luafilesystem.html">
+            
+                <a href="../open-source/luafilesystem.html">
+            
+                    
+                    LuaFileSystem 扩展库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.36.6" data-path="../open-source/luasqlite3.html">
+            
+                <a href="../open-source/luasqlite3.html">
+            
+                    
+                    LuaSQLite3 模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.36.7" data-path="../open-source/lcurl.html">
+            
+                <a href="../open-source/lcurl.html">
+            
+                    
+                    lcurl 模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.37" data-path="../more-open-source/index.html">
+            
+                <a href="../more-open-source/index.html">
+            
+                    
+                    更多的编译好的开源扩展库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.38" data-path="../supplement/index.html">
+            
+                <a href="../supplement/index.html">
+            
+                    
+                    附录
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.38.1" data-path="../supplement/dev-tools.html">
+            
+                <a href="../supplement/dev-tools.html">
+            
+                    
+                    开发及周边工具下载
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.38.2" data-path="../supplement/exts.html">
+            
+                <a href="../supplement/exts.html">
+            
+                    
+                    扩展库及远程扩展接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.38.3" data-path="../supplement/daemon-mode.html">
+            
+                <a href="../supplement/daemon-mode.html">
+            
+                    
+                    脚本守护模式是什么？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.38.4" data-path="../supplement/bootstrap.html">
+            
+                <a href="../supplement/bootstrap.html">
+            
+                    
+                    开机启动的时机说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.38.5" data-path="../supplement/url-scheme.html">
+            
+                <a href="../supplement/url-scheme.html">
+            
+                    
+                    "URL Scheme" 的相关应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.38.6" data-path="../supplement/os.date.html">
+            
+                <a href="../supplement/os.date.html">
+            
+                    
+                    日期格式化相关 (os.date)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.38.7" data-path="../supplement/os.execute.html">
+            
+                <a href="../supplement/os.execute.html">
+            
+                    
+                    命令执行相关示例代码 (os.execute)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.38.8" data-path="../supplement/string-samples.html">
+            
+                <a href="../supplement/string-samples.html">
+            
+                    
+                    string 库的相关应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.38.9" data-path="../supplement/math-samples.html">
+            
+                <a href="../supplement/math-samples.html">
+            
+                    
+                    math 库的相关应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.38.10" data-path="../supplement/abc.html">
+            
+                <a href="../supplement/abc.html">
+            
+                    
+                    学习 Lua 注意避开的坑
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.38.11" data-path="../supplement/runtime-errors.html">
+            
+                <a href="../supplement/runtime-errors.html">
+            
+                    
+                    开发常见运行期错误参考
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../XPP/index.html">
+            
+                <a href="../../XPP/index.html">
+            
+                    
+                    XPP 脚本包
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../XPP/INTRO.html">
+            
+                <a href="../../XPP/INTRO.html">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../../XPP/Layout.html">
+            
+                <a href="../../XPP/Layout.html">
+            
+                    
+                    XPP 格式
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.1" data-path="../../XPP/Layout/Info.html">
+            
+                <a href="../../XPP/Layout/Info.html">
+            
+                    
+                    元信息
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.1.1" data-path="../../XPP/Layout/Info/BundleIdentifier.html">
+            
+                <a href="../../XPP/Layout/Info/BundleIdentifier.html">
+            
+                    
+                    BundleIdentifier (包标识符)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.1.2" data-path="../../XPP/Layout/Info/BundleVersion.html">
+            
+                <a href="../../XPP/Layout/Info/BundleVersion.html">
+            
+                    
+                    BundleVersion (脚本应用包的版本号)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.1.3" data-path="../../XPP/Layout/Info/BundleName.html">
+            
+                <a href="../../XPP/Layout/Info/BundleName.html">
+            
+                    
+                    BundleName (短名称)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.1.4" data-path="../../XPP/Layout/Info/BundleDisplayName.html">
+            
+                <a href="../../XPP/Layout/Info/BundleDisplayName.html">
+            
+                    
+                    BundleDisplayName (显示名称)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.1.5" data-path="../../XPP/Layout/Info/BundleIconFile.html">
+            
+                <a href="../../XPP/Layout/Info/BundleIconFile.html">
+            
+                    
+                    BundleIconFile (图标文件)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.1.6" data-path="../../XPP/Layout/Info/Executable.html">
+            
+                <a href="../../XPP/Layout/Info/Executable.html">
+            
+                    
+                    Executable (可执行入口脚本文件)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.1.7" data-path="../../XPP/Layout/Info/MainInterfaceFile.html">
+            
+                <a href="../../XPP/Layout/Info/MainInterfaceFile.html">
+            
+                    
+                    MainInterfaceFile (主界面配置入口文件)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.1.8" data-path="../../XPP/Layout/Info/SystemVersion.html">
+            
+                <a href="../../XPP/Layout/Info/SystemVersion.html">
+            
+                    
+                    MinimumSystemVersion/MaximumSystemVersion (最低/最高 iOS 版本要求)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.1.9" data-path="../../XPP/Layout/Info/MinimumXXTVersion.html">
+            
+                <a href="../../XPP/Layout/Info/MinimumXXTVersion.html">
+            
+                    
+                    MinimumXXTVersion (最低 XXTouch 服务版本要求)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.1.10" data-path="../../XPP/Layout/Info/SupportedResolutions.html">
+            
+                <a href="../../XPP/Layout/Info/SupportedResolutions.html">
+            
+                    
+                    SupportedResolutions (支持的设备屏幕物理尺寸数组)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.1.11" data-path="../../XPP/Layout/Info/PackageControl.html">
+            
+                <a href="../../XPP/Layout/Info/PackageControl.html">
+            
+                    
+                    PackageControl (附加信息)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.2" data-path="../../XPP/Layout/Localizable.html">
+            
+                <a href="../../XPP/Layout/Localizable.html">
+            
+                    
+                    本地化
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../../XPP/XPA.html">
+            
+                <a href="../../XPP/XPA.html">
+            
+                    
+                    XPA 打包格式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../XUI/index.html">
+            
+                <a href="../../XUI/index.html">
+            
+                    
+                    XUI 界面库使用手册
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../XUI/START.html">
+            
+                <a href="../../XUI/START.html">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../XUI/Demo.html">
+            
+                <a href="../../XUI/Demo.html">
+            
+                    
+                    示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../../XUI/Creation.html">
+            
+                <a href="../../XUI/Creation.html">
+            
+                    
+                    创建
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.3.1" data-path="../../XUI/Creation/Root.html">
+            
+                <a href="../../XUI/Creation/Root.html">
+            
+                    
+                    根
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3.2" data-path="../../XUI/Creation/Theme.html">
+            
+                <a href="../../XUI/Creation/Theme.html">
+            
+                    
+                    主题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3.3" data-path="../../XUI/Creation/General.html">
+            
+                <a href="../../XUI/Creation/General.html">
+            
+                    
+                    通用属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3.4" data-path="../../XUI/Creation/ReadSettings.html">
+            
+                <a href="../../XUI/Creation/ReadSettings.html">
+            
+                    
+                    读取配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../../XUI/Modules/index.html">
+            
+                <a href="../../XUI/Modules/index.html">
+            
+                    
+                    组件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.4.1" data-path="../../XUI/Modules/Group.html">
+            
+                <a href="../../XUI/Modules/Group.html">
+            
+                    
+                    Group 分组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.2" data-path="../../XUI/Modules/Link.html">
+            
+                <a href="../../XUI/Modules/Link.html">
+            
+                    
+                    Link 链接子界面
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.3" data-path="../../XUI/Modules/Switch.html">
+            
+                <a href="../../XUI/Modules/Switch.html">
+            
+                    
+                    Switch 开关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.4" data-path="../../XUI/Modules/Button.html">
+            
+                <a href="../../XUI/Modules/Button.html">
+            
+                    
+                    Button 动作按钮
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.5" data-path="../../XUI/Modules/TextField.html">
+            
+                <a href="../../XUI/Modules/TextField.html">
+            
+                    
+                    TextField 单行文本框
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.6" data-path="../../XUI/Modules/Radio_Checkbox.html">
+            
+                <a href="../../XUI/Modules/Radio_Checkbox.html">
+            
+                    
+                    Radio / Checkbox 单选框 / 复选框组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.7" data-path="../../XUI/Modules/Segment.html">
+            
+                <a href="../../XUI/Modules/Segment.html">
+            
+                    
+                    Segment 适合少量选项的单项选择
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.8" data-path="../../XUI/Modules/Option.html">
+            
+                <a href="../../XUI/Modules/Option.html">
+            
+                    
+                    Option 单项选择列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.9" data-path="../../XUI/Modules/MultipleOption.html">
+            
+                <a href="../../XUI/Modules/MultipleOption.html">
+            
+                    
+                    MultipleOption 多项选择列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.10" data-path="../../XUI/Modules/OrderedOption.html">
+            
+                <a href="../../XUI/Modules/OrderedOption.html">
+            
+                    
+                    OrderedOption 多项有序选择列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.11" data-path="../../XUI/Modules/EditableList.html">
+            
+                <a href="../../XUI/Modules/EditableList.html">
+            
+                    
+                    EditableList 可编辑列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.12" data-path="../../XUI/Modules/Slider.html">
+            
+                <a href="../../XUI/Modules/Slider.html">
+            
+                    
+                    Slider 数值拖拽滑块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.13" data-path="../../XUI/Modules/Stepper.html">
+            
+                <a href="../../XUI/Modules/Stepper.html">
+            
+                    
+                    Stepper 数值调节按钮
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.14" data-path="../../XUI/Modules/DateTime.html">
+            
+                <a href="../../XUI/Modules/DateTime.html">
+            
+                    
+                    DateTime 时间日期选择器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.15" data-path="../../XUI/Modules/TitleValue.html">
+            
+                <a href="../../XUI/Modules/TitleValue.html">
+            
+                    
+                    TitleValue 键值对显示; 代码片段选择器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.16" data-path="../../XUI/Modules/StaticText.html">
+            
+                <a href="../../XUI/Modules/StaticText.html">
+            
+                    
+                    StaticText 静态文本框
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.17" data-path="../../XUI/Modules/Textarea.html">
+            
+                <a href="../../XUI/Modules/Textarea.html">
+            
+                    
+                    Textarea 多行文本域
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.18" data-path="../../XUI/Modules/Image_AnimatedImage.html">
+            
+                <a href="../../XUI/Modules/Image_AnimatedImage.html">
+            
+                    
+                    Image / AnimatedImage 图片 / 动态图片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.19" data-path="../../XUI/Modules/File.html">
+            
+                <a href="../../XUI/Modules/File.html">
+            
+                    
+                    File 文件选择器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4.20" data-path="../../XUI/Modules/About.html">
+            
+                <a href="../../XUI/Modules/About.html">
+            
+                    
+                    About 关于
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../../XUI/Internal_Lua_Module.html">
+            
+                <a href="../../XUI/Internal_Lua_Module.html">
+            
+                    
+                    XUI 支持的 API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="../../XUI/Snippet/index.html">
+            
+                <a href="../../XUI/Snippet/index.html">
+            
+                    
+                    代码片段
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.6.1" data-path="../../XUI/Snippet/START.html">
+            
+                <a href="../../XUI/Snippet/START.html">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6.2" data-path="../../XUI/Snippet/Creation.html">
+            
+                <a href="../../XUI/Snippet/Creation.html">
+            
+                    
+                    创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6.3" data-path="../../XUI/Snippet/app.html">
+            
+                <a href="../../XUI/Snippet/app.html">
+            
+                    
+                    应用程序选择器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6.4" data-path="../../XUI/Snippet/key.html">
+            
+                <a href="../../XUI/Snippet/key.html">
+            
+                    
+                    虚拟按键选择器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6.5" data-path="../../XUI/Snippet/loc.html">
+            
+                <a href="../../XUI/Snippet/loc.html">
+            
+                    
+                    地理位置选择器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6.6" data-path="../../XUI/Snippet/poscolor.html">
+            
+                <a href="../../XUI/Snippet/poscolor.html">
+            
+                    
+                    图像位置与颜色选择器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6.7" data-path="../../XUI/Snippet/rect.html">
+            
+                <a href="../../XUI/Snippet/rect.html">
+            
+                    
+                    图像区域选择器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../OpenAPI/index.html">
+            
+                <a href="../../OpenAPI/index.html">
+            
+                    
+                    OpenAPI 使用手册
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../../OpenAPI/START.html">
+            
+                <a href="../../OpenAPI/START.html">
+            
+                    
+                    开始之前
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../../OpenAPI/Demo.html">
+            
+                <a href="../../OpenAPI/Demo.html">
+            
+                    
+                    示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../../OpenAPI/FileSystem/index.html">
+            
+                <a href="../../OpenAPI/FileSystem/index.html">
+            
+                    
+                    文件相关
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.3.1" data-path="../../OpenAPI/FileSystem/file_list.html">
+            
+                <a href="../../OpenAPI/FileSystem/file_list.html">
+            
+                    
+                    获取文件列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3.2" data-path="../../OpenAPI/FileSystem/select_script_file.html">
+            
+                <a href="../../OpenAPI/FileSystem/select_script_file.html">
+            
+                    
+                    选择一个脚本文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3.3" data-path="../../OpenAPI/FileSystem/get_selected_script_file.html">
+            
+                <a href="../../OpenAPI/FileSystem/get_selected_script_file.html">
+            
+                    
+                    获取当前已经选择的脚本文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3.4" data-path="../../OpenAPI/FileSystem/launch_script_file.html">
+            
+                <a href="../../OpenAPI/FileSystem/launch_script_file.html">
+            
+                    
+                    运行已经选择的脚本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3.5" data-path="../../OpenAPI/FileSystem/remove_script_file.html">
+            
+                <a href="../../OpenAPI/FileSystem/remove_script_file.html">
+            
+                    
+                    删除一个脚本文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3.6" data-path="../../OpenAPI/FileSystem/new_script_file.html">
+            
+                <a href="../../OpenAPI/FileSystem/new_script_file.html">
+            
+                    
+                    新建一个脚本文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3.7" data-path="../../OpenAPI/FileSystem/write_script_file.html">
+            
+                <a href="../../OpenAPI/FileSystem/write_script_file.html">
+            
+                    
+                    写入内容到脚本文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3.8" data-path="../../OpenAPI/FileSystem/mkdir.html">
+            
+                <a href="../../OpenAPI/FileSystem/mkdir.html">
+            
+                    
+                    新建一个目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3.9" data-path="../../OpenAPI/FileSystem/rmdir.html">
+            
+                <a href="../../OpenAPI/FileSystem/rmdir.html">
+            
+                    
+                    删除一个目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3.10" data-path="../../OpenAPI/FileSystem/read_script_file.html">
+            
+                <a href="../../OpenAPI/FileSystem/read_script_file.html">
+            
+                    
+                    读取脚本文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3.11" data-path="../../OpenAPI/FileSystem/rename_file.html">
+            
+                <a href="../../OpenAPI/FileSystem/rename_file.html">
+            
+                    
+                    重命名一个文件或目录（RAW）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3.12" data-path="../../OpenAPI/FileSystem/remove_file.html">
+            
+                <a href="../../OpenAPI/FileSystem/remove_file.html">
+            
+                    
+                    删除一个文件或空目录（RAW）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3.13" data-path="../../OpenAPI/FileSystem/read_file.html">
+            
+                <a href="../../OpenAPI/FileSystem/read_file.html">
+            
+                    
+                    读取一个文件（RAW）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3.14" data-path="../../OpenAPI/FileSystem/write_file.html">
+            
+                <a href="../../OpenAPI/FileSystem/write_file.html">
+            
+                    
+                    写入一个文件（RAW）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3.15" data-path="../../OpenAPI/FileSystem/download_file.html">
+            
+                <a href="../../OpenAPI/FileSystem/download_file.html">
+            
+                    
+                    跳转下载一个文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../../OpenAPI/Status/index.html">
+            
+                <a href="../../OpenAPI/Status/index.html">
+            
+                    
+                    状态相关
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.4.1" data-path="../../OpenAPI/Status/check_syntax.html">
+            
+                <a href="../../OpenAPI/Status/check_syntax.html">
+            
+                    
+                    对明文脚本内容进行语法检测
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4.2" data-path="../../OpenAPI/Status/is_running.html">
+            
+                <a href="../../OpenAPI/Status/is_running.html">
+            
+                    
+                    获得脚本运行状态
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4.3" data-path="../../OpenAPI/Status/device_front_orien.html">
+            
+                <a href="../../OpenAPI/Status/device_front_orien.html">
+            
+                    
+                    获得前台应用画面旋转方向
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../../OpenAPI/Config/index.html">
+            
+                <a href="../../OpenAPI/Config/index.html">
+            
+                    
+                    设置相关
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.5.1" data-path="../../OpenAPI/Config/get_record_conf.html">
+            
+                <a href="../../OpenAPI/Config/get_record_conf.html">
+            
+                    
+                    获取录制设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5.2" data-path="../../OpenAPI/Config/set_record_conf.html">
+            
+                <a href="../../OpenAPI/Config/set_record_conf.html">
+            
+                    
+                    录制设置开关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5.3" data-path="../../OpenAPI/Config/get_volume_action_conf.html">
+            
+                <a href="../../OpenAPI/Config/get_volume_action_conf.html">
+            
+                    
+                    获取音量键事件设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5.4" data-path="../../OpenAPI/Config/set_volume_action_conf.html">
+            
+                <a href="../../OpenAPI/Config/set_volume_action_conf.html">
+            
+                    
+                    音量键事件设置开关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5.5" data-path="../../OpenAPI/Config/get_startup_conf.html">
+            
+                <a href="../../OpenAPI/Config/get_startup_conf.html">
+            
+                    
+                    获取开机启动设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5.6" data-path="../../OpenAPI/Config/set_startup_conf.html">
+            
+                <a href="../../OpenAPI/Config/set_startup_conf.html">
+            
+                    
+                    开机启动设置开关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5.7" data-path="../../OpenAPI/Config/select_startup_script_file.html">
+            
+                <a href="../../OpenAPI/Config/select_startup_script_file.html">
+            
+                    
+                    选择开机启动脚本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5.8" data-path="../../OpenAPI/Config/get_user_conf.html">
+            
+                <a href="../../OpenAPI/Config/get_user_conf.html">
+            
+                    
+                    获得用户偏好配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5.9" data-path="../../OpenAPI/Config/set_user_conf.html">
+            
+                <a href="../../OpenAPI/Config/set_user_conf.html">
+            
+                    
+                    设置用户偏好配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5.10" data-path="../../OpenAPI/Config/set_no_nosim_alert.html">
+            
+                <a href="../../OpenAPI/Config/set_no_nosim_alert.html">
+            
+                    
+                    禁弹出 “无 SIM 卡” 弹窗开关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5.11" data-path="../../OpenAPI/Config/set_no_low_power_alert.html">
+            
+                <a href="../../OpenAPI/Config/set_no_low_power_alert.html">
+            
+                    
+                    禁弹出 “低电量” 弹窗开关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5.12" data-path="../../OpenAPI/Config/set_no_need_pushid_alert.html">
+            
+                <a href="../../OpenAPI/Config/set_no_need_pushid_alert.html">
+            
+                    
+                    禁弹出 “使用推送通知来连接 iTunes” 弹窗开关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5.13" data-path="../../OpenAPI/Config/set_device_name.html">
+            
+                <a href="../../OpenAPI/Config/set_device_name.html">
+            
+                    
+                    设置设备名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5.14" data-path="../../OpenAPI/Config/set_brightness.html">
+            
+                <a href="../../OpenAPI/Config/set_brightness.html">
+            
+                    
+                    设置设备的屏幕背光度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5.15" data-path="../../OpenAPI/Config/set_volume.html">
+            
+                <a href="../../OpenAPI/Config/set_volume.html">
+            
+                    
+                    设置设备全局音量
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6" data-path="../../OpenAPI/System/index.html">
+            
+                <a href="../../OpenAPI/System/index.html">
+            
+                    
+                    系统相关
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.6.1" data-path="../../OpenAPI/System/applist.html">
+            
+                <a href="../../OpenAPI/System/applist.html">
+            
+                    
+                    获取设备已安装应用程序信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6.2" data-path="../../OpenAPI/System/deviceinfo.html">
+            
+                <a href="../../OpenAPI/System/deviceinfo.html">
+            
+                    
+                    获取设备信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6.3" data-path="../../OpenAPI/System/lock_screen.html">
+            
+                <a href="../../OpenAPI/System/lock_screen.html">
+            
+                    
+                    锁定屏幕
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6.4" data-path="../../OpenAPI/System/unlock_screen.html">
+            
+                <a href="../../OpenAPI/System/unlock_screen.html">
+            
+                    
+                    解锁屏幕
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6.5" data-path="../../OpenAPI/System/restart.html">
+            
+                <a href="../../OpenAPI/System/restart.html">
+            
+                    
+                    重启服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6.6" data-path="../../OpenAPI/System/respring.html">
+            
+                <a href="../../OpenAPI/System/respring.html">
+            
+                    
+                    注销设备
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6.7" data-path="../../OpenAPI/System/reboot2.html">
+            
+                <a href="../../OpenAPI/System/reboot2.html">
+            
+                    
+                    重启设备
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6.8" data-path="../../OpenAPI/System/halt.html">
+            
+                <a href="../../OpenAPI/System/halt.html">
+            
+                    
+                    关机
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6.9" data-path="../../OpenAPI/System/uicache.html">
+            
+                <a href="../../OpenAPI/System/uicache.html">
+            
+                    
+                    清理 UI 缓存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6.10" data-path="../../OpenAPI/System/clear_gps.html">
+            
+                <a href="../../OpenAPI/System/clear_gps.html">
+            
+                    
+                    清理 GPS 伪装信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6.11" data-path="../../OpenAPI/System/clear_all.html">
+            
+                <a href="../../OpenAPI/System/clear_all.html">
+            
+                    
+                    全清设备
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6.12" data-path="../../OpenAPI/System/clear_app_data.html">
+            
+                <a href="../../OpenAPI/System/clear_app_data.html">
+            
+                    
+                    清理应用程序存档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6.13" data-path="../../OpenAPI/System/image_to_album.html">
+            
+                <a href="../../OpenAPI/System/image_to_album.html">
+            
+                    
+                    导入一张照片到系统相册
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6.14" data-path="../../OpenAPI/System/update_deb.html">
+            
+                <a href="../../OpenAPI/System/update_deb.html">
+            
+                    
+                    更新自己
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6.15" data-path="../../OpenAPI/System/open_remote_access.html">
+            
+                <a href="../../OpenAPI/System/open_remote_access.html">
+            
+                    
+                    打开远程访问
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6.16" data-path="../../OpenAPI/System/close_remote_access.html">
+            
+                <a href="../../OpenAPI/System/close_remote_access.html">
+            
+                    
+                    关闭远程访问
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6.17" data-path="../../OpenAPI/System/is_remote_access_opened.html">
+            
+                <a href="../../OpenAPI/System/is_remote_access_opened.html">
+            
+                    
+                    获取远程服务开启状态
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.7" data-path="../../OpenAPI/Encrypt/index.html">
+            
+                <a href="../../OpenAPI/Encrypt/index.html">
+            
+                    
+                    加密脚本相关
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.7.1" data-path="../../OpenAPI/Encrypt/encript_file.html">
+            
+                <a href="../../OpenAPI/Encrypt/encript_file.html">
+            
+                    
+                    加密一个设备上的脚本文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.7.2" data-path="../../OpenAPI/Encrypt/encript.html">
+            
+                <a href="../../OpenAPI/Encrypt/encript.html">
+            
+                    
+                    加密一段明文脚本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.7.3" data-path="../../OpenAPI/Encrypt/encript_2.html">
+            
+                <a href="../../OpenAPI/Encrypt/encript_2.html">
+            
+                    
+                    加密一段明文脚本并返回下载 URI
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.8" data-path="../../OpenAPI/License/index.html">
+            
+                <a href="../../OpenAPI/License/index.html">
+            
+                    
+                    授权相关
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.8.1" data-path="../../OpenAPI/License/bind_code.html">
+            
+                <a href="../../OpenAPI/License/bind_code.html">
+            
+                    
+                    绑定一个授权码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.8.2" data-path="../../OpenAPI/License/device_auth_info.html">
+            
+                <a href="../../OpenAPI/License/device_auth_info.html">
+            
+                    
+                    获得当前设备的授权信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.9" data-path="../../OpenAPI/Control/index.html">
+            
+                <a href="../../OpenAPI/Control/index.html">
+            
+                    
+                    控制相关
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.9.1" data-path="../../OpenAPI/Control/udp_scan.html">
+            
+                <a href="../../OpenAPI/Control/udp_scan.html">
+            
+                    
+                    UDP 扫描局域网的设备
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.9.2" data-path="../../OpenAPI/Control/spawn.html">
+            
+                <a href="../../OpenAPI/Control/spawn.html">
+            
+                    
+                    远程启动脚本接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.9.3" data-path="../../OpenAPI/Control/recycle.html">
+            
+                <a href="../../OpenAPI/Control/recycle.html">
+            
+                    
+                    停止脚本接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.9.4" data-path="../../OpenAPI/Control/pause_script.html">
+            
+                <a href="../../OpenAPI/Control/pause_script.html">
+            
+                    
+                    暂停脚本接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.9.5" data-path="../../OpenAPI/Control/resume_script.html">
+            
+                <a href="../../OpenAPI/Control/resume_script.html">
+            
+                    
+                    继续脚本接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.9.6" data-path="../../OpenAPI/Control/snapshot.html">
+            
+                <a href="../../OpenAPI/Control/snapshot.html">
+            
+                    
+                    远程截图接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.9.7" data-path="../../OpenAPI/Control/proc_put.html">
+            
+                <a href="../../OpenAPI/Control/proc_put.html">
+            
+                    
+                    设置进程词典条目的值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.9.8" data-path="../../OpenAPI/Control/proc_get.html">
+            
+                <a href="../../OpenAPI/Control/proc_get.html">
+            
+                    
+                    查看进程词典条目的值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.9.9" data-path="../../OpenAPI/Control/proc_queue_push.html">
+            
+                <a href="../../OpenAPI/Control/proc_queue_push.html">
+            
+                    
+                    推入条目到进程词典队列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.9.10" data-path="../../OpenAPI/Control/proc_queue_pop.html">
+            
+                <a href="../../OpenAPI/Control/proc_queue_pop.html">
+            
+                    
+                    从进程词典队列弹出条目
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.9.11" data-path="../../OpenAPI/Control/proc_queue_clear.html">
+            
+                <a href="../../OpenAPI/Control/proc_queue_clear.html">
+            
+                    
+                    弹出进程词典队列所有条目
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../../URLScheme/index.html">
+            
+                <a href="../../URLScheme/index.html">
+            
+                    
+                    URL Scheme 与二维码协议
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../../URLScheme/INTRO.html">
+            
+                <a href="../../URLScheme/INTRO.html">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../../URLScheme/Scan.html">
+            
+                <a href="../../URLScheme/Scan.html">
+            
+                    
+                    打开扫一扫
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../../URLScheme/Launch.html">
+            
+                <a href="../../URLScheme/Launch.html">
+            
+                    
+                    运行脚本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="../../URLScheme/Stop.html">
+            
+                <a href="../../URLScheme/Stop.html">
+            
+                    
+                    停止脚本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="../../URLScheme/License.html">
+            
+                <a href="../../URLScheme/License.html">
+            
+                    
+                    绑定授权
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.6" data-path="../../URLScheme/XUI.html">
+            
+                <a href="../../URLScheme/XUI.html">
+            
+                    
+                    XUI 相关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.7" data-path="../../URLScheme/Download.html">
+            
+                <a href="../../URLScheme/Download.html">
+            
+                    
+                    下载相关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.8" data-path="../../URLScheme/Workspace.html">
+            
+                <a href="../../URLScheme/Workspace.html">
+            
+                    
+                    恢复工作区
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.9" data-path="../../URLScheme/Cloud.html">
+            
+                <a href="../../URLScheme/Cloud.html">
+            
+                    
+                    软猫云
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >模拟使用上划退出应用程序 (app.quit)</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="&#x6A21;&#x62DF;&#x4F7F;&#x7528;&#x4E0A;&#x5212;&#x9000;&#x51FA;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;-appquit">&#x6A21;&#x62DF;&#x4F7F;&#x7528;&#x4E0A;&#x5212;&#x9000;&#x51FA;&#x5E94;&#x7528;&#x7A0B;&#x5E8F; (<strong>app.quit</strong>)</h3>
+<h4 id="&#x58F0;&#x660E;">&#x58F0;&#x660E;</h4>
+<pre><code class="lang-lua">app.quit(&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x5305;&#x540D;)
+</code></pre>
+<h4 id="&#x53C2;&#x6570;&#x53CA;&#x8FD4;&#x56DE;&#x503C;">&#x53C2;&#x6570;&#x53CA;&#x8FD4;&#x56DE;&#x503C;</h4>
+<ul>
+<li>&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x5305;&#x540D;<ul>
+<li>&#x6587;&#x672C;&#x578B;&#xFF0C;&#x9700;&#x8981;&#x9000;&#x51FA;&#x7684;&#x5E94;&#x7528;&#x7684; bundle identifier<br>&#x5E94;&#x7528;&#x5305;&#x6807;&#x8BC6;&#x7B26;&#xFF0C;&#x53EF;&#x5728; <strong>XXT &#x5E94;&#x7528;&#x7A0B;&#x5E8F;--&#x66F4;&#x591A;--&#x5E94;&#x7528;&#x5217;&#x8868;</strong> &#x4E2D;&#x67E5;&#x770B;<br>&#x4F20;&#x5165; <code>&quot;*&quot;</code> &#x8868;&#x793A;&#x9000;&#x51FA;&#x6240;&#x6709;  </li>
+</ul>
+</li>
+</ul>
+<h4 id="&#x8BF4;&#x660E;">&#x8BF4;&#x660E;</h4>
+<blockquote>
+<p>&#x8FD9;&#x4E2A;&#x5F53;&#x7136;&#x4E5F;&#x662F;&#x5F3A;&#x6740;&#xFF0C;&#x4F46;&#x662F;&#x4E0E; <a href="app.close.html">app.close</a> &#x4E0D;&#x540C;&#x7684;&#x662F;&#xFF0C;&#x5E94;&#x7528;&#x5728;&#x9000;&#x51FA;&#x524D;&#x4F1A;&#x6536;&#x5230;&#x901A;&#x77E5;&#xFF0C;&#x5E94;&#x7528;&#x5728;&#x5B8C;&#x5168;&#x5173;&#x95ED;&#x4E4B;&#x524D;&#x6709;&#x81F3;&#x591A; 10 &#x79D2;&#x65F6;&#x95F4;&#x4FDD;&#x5B58;&#x5B58;&#x6863;&#xFF0C;&#x5E76;&#x4E14;&#x5B83;&#x4F1A;&#x6E05;&#x9664;&#x6389;&#x591A;&#x4EFB;&#x52A1;&#x5207;&#x6362;&#x754C;&#x9762;&#x7684;&#x6807;&#x7B7E;<br><strong>&#x8BF7;&#x4E0D;&#x8981;&#x5728;&#x9501;&#x5C4F;&#x72B6;&#x6001;&#x4F7F;&#x7528;&#xFF0C;&#x8BE5;&#x51FD;&#x6570;&#x53EF;&#x80FD;&#x4E0D;&#x80FD;&#x826F;&#x597D;&#x9000;&#x51FA; root &#x6743;&#x9650;&#x7684; App&#xFF0C;&#x4F7F;&#x7528;&#x8BE5;&#x51FD;&#x6570;&#x9000;&#x51FA; root &#x6743;&#x9650;&#x7A0B;&#x5E8F;&#x53EF;&#x80FD;&#x4F1A;&#x5BFC;&#x81F4;&#x5C4F;&#x5E55;&#x5361;&#x4F4F;&#x70B9;&#x56FE;&#x6807;&#x65E0;&#x54CD;&#x5E94;&#x7B49;&#x73B0;&#x8C61;&#xFF0C;root &#x6743;&#x9650;&#x7684; App &#x63A8;&#x8350;&#x4F7F;&#x7528; <a href="app.close.html">app.close</a> &#x5F3A;&#x6740;</strong>  </p>
+</blockquote>
+<h4 id="&#x793A;&#x4F8B;">&#x793A;&#x4F8B;</h4>
+<pre><code class="lang-lua"><span class="hljs-comment">-- &#x9000;&#x51FA;&#x6240;&#x6709;&#x7684; App</span>
+app.quit(<span class="hljs-string">&quot;*&quot;</span>)
+<span class="hljs-comment">--</span>
+<span class="hljs-comment">-- &#x9000;&#x51FA;QQ&#xFF0C;&#x5982;&#x679C;QQ&#x6B63;&#x5728;&#x8FD0;&#x884C;&#x7684;&#x8BDD;</span>
+app.quit(<span class="hljs-string">&quot;com.tencent.mqq&quot;</span>)
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="app.close.html" class="navigation navigation-prev " aria-label="Previous page: 关闭应用程序 (app.close)">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="app.is_running.html" class="navigation navigation-next " aria-label="Next page: 检测应用程序是否正在运行 (app.is_running)">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"模拟使用上划退出应用程序 (app.quit)","level":"1.5.15.7","depth":3,"next":{"title":"检测应用程序是否正在运行 (app.is_running)","level":"1.5.15.8","depth":3,"path":"Handbook/app/app.is_running.md","ref":"Handbook/app/app.is_running.md","articles":[]},"previous":{"title":"关闭应用程序 (app.close)","level":"1.5.15.6","depth":3,"path":"Handbook/app/app.close.md","ref":"Handbook/app/app.close.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","-lunr","back-to-top-button","sitemap","-search","search-pro","github","fontsettings","expandable-chapters","-livereload","splitter"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/Lessica/XXTouchBook"},"splitter":{},"search-pro":{},"fontsettings":{"family":"sans","size":2,"theme":"white"},"highlight":{},"sitemap":{"hostname":"https://www.xxtouch.com/"},"back-to-top-button":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"i_82","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"XXTouch 知识库","language":"zh-hans","links":{"sidebar":{"XXTouch 官方网站":"https://www.xxtouch.com"}},"gitbook":"*","description":"XXTouch 知识库, 开发者必备宝典."},"file":{"path":"Handbook/app/app.quit.md","mtime":"2022-06-16T16:59:08.575Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-07-20T07:48:51.473Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+
+    </body>
+</html>
+
